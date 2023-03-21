@@ -6,7 +6,7 @@
             url = "github:nix-community/home-manager/master";
             inputs.nixpkgs.follows = "nixpkgs";
         };
-        hyprland.url = "github:HyperWM/Hyprland";
+        hyprland.url = "github:hyprwm/Hyprland";
     };
     outputs = {self, nixpkgs, home-manager, hyprland}: {
         nixosConfigurations = {
